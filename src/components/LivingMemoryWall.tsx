@@ -275,29 +275,17 @@ const LivingMemoryWall = () => {
               />
             </div>
           ))}
-
-          <button
-              onClick={() => console.log('TEST BUTTON')}
-              className="absolute left-8 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 transition-colors z-60"
-            >
-              <ChevronLeft className="w-10 h-10" />
-          </button>
-          <button onClick={() => {console.log('temp')}}>HERE</button>
-
-          {/* <div className="absolute inset-0 bg-black/50 z-10"></div> */}
           
           {/* Back Button */}
-          {/* <button
+          <button
             onClick={() => {
               console.log('Back to trips');
              setSelectedTrip(null);
             }}
-
-            className="absolute top-8 left-8 z-20 text-white hover:text-gray-300 hover:bg-white/10 transition-all duration-200 p-2 rounded-full hover:scale-110 active:scale-95 pointer-events-auto"
+            className="absolute top-8 left-8 z-30 text-white hover:text-gray-300 hover:bg-white/10 transition-all duration-200 p-2 rounded-full hover:scale-110 active:scale-95 pointer-events-auto"
           >
-            BACK
             <ChevronLeft className="w-8 h-8" />
-          </button> */}
+          </button>
 
           {/* Trip Title */}
           <div className="absolute inset-0 z-20 flex items-center justify-center">
